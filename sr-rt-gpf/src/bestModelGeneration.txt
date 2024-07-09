@@ -1,0 +1,52 @@
+(-0.0004607796433170 .* (+ X4 X8)) + 2.8016900107549922
+(0.0216061437001736 .* (* X5 (mylog X1))) + 1.4832437181230567
+(0.0216061437001736 .* (* X5 (mylog X1))) + 1.4832437181230567
+(0.0932193401318586 .* (* X5 (mylog (mylog X3)))) + 2.2303171053214610
+(0.0932193401318586 .* (* X5 (mylog (mylog X3)))) + 2.2303171053214610
+(0.0932193401318586 .* (* X5 (mylog (mylog X3)))) + 2.2303171053214610
+(0.0932193401318586 .* (* X5 (mylog (mylog X3)))) + 2.2303171053214610
+(0.0932193401318586 .* (* X5 (mylog (mylog X3)))) + 2.2303171053214610
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(1.4722247244514755 .* (mylog (sqrt (* X5 X3)))) + 0.0407801604956295
+(0.6462353955764010 .* (mylog (- (* X5 X3) X5))) + 0.6662130359587302
+(0.6462353955764010 .* (mylog (- (* X5 X3) X5))) + 0.6662130359587302
+(0.6462353955764010 .* (mylog (- (* X5 X3) X5))) + 0.6662130359587302
+(0.6462353955764010 .* (mylog (- (* X5 X3) X5))) + 0.6662130359587302
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496

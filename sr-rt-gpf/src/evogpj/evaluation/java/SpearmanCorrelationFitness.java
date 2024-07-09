@@ -1,37 +1,32 @@
 package evogpj.evaluation.java;
 
+import evogpj.genotype.Tree;
 import evogpj.gp.Individual;
 import evogpj.gp.Population;
-import evogpj.evaluation.FitnessFunction;
 import evogpj.utils.SpearmansRank;
+import evogpj.evaluation.FitnessFunction;
+import evogpj.math.Function;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SpearmanCorrelationFitness extends FitnessFunction {
-    public static String FITNESS_KEY = "SpearmanCorrelation";
 
-    public Boolean isMaximizingFunction = false;
+    private final DataJava data;
 
-    private final double[] targetValues;
-
-    public SpearmanCorrelationFitness(double[] targetValues) {
-        this.targetValues = targetValues;
+    public SpearmanCorrelationFitness(DataJava data) {
+        this.data = data;
     }
 
-    @Override
-    public Boolean isMaximizingFunction() {
-        return this.isMaximizingFunction;
-    }
-
-    @Override
+    // Remove @Override if these methods don't exist in FitnessFunction
     public void eval(Individual ind) {
-        // Assuming the individual's genotype has a method to get predicted values
         Tree genotype = (Tree) ind.getGenotype();
         double[] predictedValues = getPredictedValues(genotype);
+        double[] targetValues = getTarget();
 
         double spearmanCorrelation = SpearmansRank.calculateSpearmanRankCorrelation(predictedValues, targetValues);
-        ind.setFitness(FITNESS_KEY, 1.0 - spearmanCorrelation); // Assuming fitness is a minimization objective
+        ind.setFitness("SpearmanCorrelation", 1.0 - spearmanCorrelation); // Assuming fitness is a minimization objective
     }
 
-    @Override
     public void evalPop(Population pop) {
         for (Individual ind : pop) {
             eval(ind);
@@ -39,8 +34,27 @@ public class SpearmanCorrelationFitness extends FitnessFunction {
     }
 
     private double[] getPredictedValues(Tree genotype) {
-        // Implement this method to generate predicted values based on the genotype
-        // This should be similar to how you obtain predicted values in SRJava
-        return new double[targetValues.length]; // Placeholder implementation
+        double[] predictedValues = new double[data.getNumberOfFitnessCases()];
+        List<Double> d;
+        double[][] inputValuesAux = data.getInputValues();
+
+        Function func = genotype.generate();
+        for (int i = 0; i < data.getNumberOfFitnessCases(); i++) {
+            d = new ArrayList<>();
+            for (int j = 0; j < data.getNumberOfFeatures(); j++) {
+                d.add(inputValuesAux[i][j]);
+            }
+            predictedValues[i] = func.eval(d);
+        }
+        return predictedValues;
+    }
+
+    private double[] getTarget() {
+        return data.getTargetValues();
+    }
+
+    @Override
+    public Boolean isMaximizingFunction() {
+        return false; // Spearman correlation is typically minimized when used as a fitness function
     }
 }

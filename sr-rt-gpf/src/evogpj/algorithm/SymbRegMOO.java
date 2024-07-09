@@ -390,9 +390,8 @@ public class SymbRegMOO {
             } else if (fitnessOperatorName.equals(Parameters.Operators.SUBTREE_COMPLEXITY_FITNESS)) {
                 fitnessFunctions.put(fitnessOperatorName,new SubtreeComplexityFitness());
             } else if (fitnessOperatorName.equals("SpearmanCorrelation")) {
-                DataJava data = new CSVDataJava(PROBLEM);
-                double[] targetValues = data.getScaledTargetValues();
-                fitnessFunctions.put(fitnessOperatorName, new SpearmanCorrelationFitness(targetValues));
+                DataJava data = new CSVDataJava(PROBLEM); // Use a concrete subclass here
+                fitnessFunctions.put(fitnessOperatorName, new SpearmanCorrelationFitness(data));
             } else {
                 System.err.format("Invalid fitness function %s specified for problem type %s%n",fitnessOperatorName);
                 System.exit(-1);
