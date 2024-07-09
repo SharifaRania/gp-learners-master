@@ -36,6 +36,7 @@ import evogpj.gp.Individual;
 import evogpj.gp.MersenneTwisterFast;
 import evogpj.gp.Population;
 import evogpj.utils.SpearmansRank;  //// SpRCo
+import evogpj.evaluation.java.SpearmanCorrelationFitness;  ////SpRCo
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -389,7 +390,9 @@ public class SymbRegMOO {
             } else if (fitnessOperatorName.equals(Parameters.Operators.SUBTREE_COMPLEXITY_FITNESS)) {
                 fitnessFunctions.put(fitnessOperatorName,new SubtreeComplexityFitness());
             } else if (fitnessOperatorName.equals("SpearmanCorrelation")) {
-            fitnessFunctions.put(fitnessOperatorName, null); ////SpRCo // Placeholder for Spearman's rank, adjust as needed
+                DataJava data = new CSVDataJava(PROBLEM);
+                double[] targetValues = data.getScaledTargetValues();
+                fitnessFunctions.put(fitnessOperatorName, new SpearmanCorrelationFitness(targetValues));
             } else {
                 System.err.format("Invalid fitness function %s specified for problem type %s%n",fitnessOperatorName);
                 System.exit(-1);
