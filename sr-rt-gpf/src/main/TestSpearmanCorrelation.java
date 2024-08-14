@@ -28,7 +28,7 @@ public class TestSpearmanCorrelation {
         Population bestPop = symbReg.getBestPop();
         for (Individual ind : bestPop) {
             System.out.println(ind);
-            System.out.println("Spearman Correlation: " + ind.getFitness("SpearmanCorrelation"));
+            //System.out.println("Spearman Correlation: " + ind.getFitness("SpearmanCorrelation"));
         }
     }
 }

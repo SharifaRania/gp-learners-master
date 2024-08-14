@@ -8,6 +8,8 @@ import evogpj.evaluation.FitnessFunction;
 import evogpj.math.Function;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Arrays;
+
 
 public class SpearmanCorrelationFitness extends FitnessFunction {
 
@@ -22,8 +24,17 @@ public class SpearmanCorrelationFitness extends FitnessFunction {
         Tree genotype = (Tree) ind.getGenotype();
         double[] predictedValues = getPredictedValues(genotype);
         double[] targetValues = getTarget();
+        
+     // Debugging output
+        //System.out.println("Predicted Values: " + Arrays.toString(predictedValues));
+        //System.out.println("Target Values: " + Arrays.toString(targetValues));
 
         double spearmanCorrelation = SpearmansRank.calculateSpearmanRankCorrelation(predictedValues, targetValues);
+        
+     // Debugging output for the calculated correlation
+        //System.out.println("Spearman's Rank Correlation: " + spearmanCorrelation);
+
+        
         ind.setFitness("SpearmanCorrelation", 1.0 - spearmanCorrelation); // Assuming fitness is a minimization objective
     }
 

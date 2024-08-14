@@ -35,6 +35,10 @@ public class SpearmansRank {
         }
 
         double spearmanCorrelation = 1 - (6 * sumDiffSquared) / (n * (n * n - 1));
+        
+        // Debug output to check the correlation
+        //System.out.println("Calculated Spearman Correlation: " + spearmanCorrelation);
+        
         return spearmanCorrelation;
     }
 }
