@@ -50,3 +50,55 @@
 (0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
 (0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
 (0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(-0.2594764130074006 .* (mydivide X8 X1)) + 3.2036665710943875
+(2.4294548202360717 .* (sqrt (mydivide (* X6 X5) (* X4 X6)))) + 0.8427992001977134
+(2.4294548202360717 .* (sqrt (mydivide (* X6 X5) (* X4 X6)))) + 0.8427992001977134
+(6.1900657150622140 .* (sqrt (mydivide X5 (* X4 X6)))) + 0.9121523872920729
+(6.1900657150622140 .* (sqrt (mydivide X5 (* X4 X6)))) + 0.9121523872920729
+(6.1900657150622140 .* (sqrt (mydivide X5 (* X4 X6)))) + 0.9121523872920729
+(6.1900657150622140 .* (sqrt (mydivide X5 (* X4 X6)))) + 0.9121523872920729
+(2.1827414393379550 .* (sqrt (mydivide (* (mylog X3) X5) (square X6)))) + 1.3174643319270851
+(0.5882039652827422 .* (mydivide (mylog (mydivide X5 (mydivide X7 X3))) (mydivide (mydivide (* X5 X6) (exp X7)) (- X5 X5)))) + 2.5059168634254690
+(0.5882039652827422 .* (mydivide (mylog (mydivide X5 (mydivide X7 X3))) (mydivide (mydivide (* X5 X6) (exp X7)) (- X5 X5)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
+(0.3299493868340840 .* (mylog (mydivide (square X5) (mydivide (mydivide X7 X3) X3)))) + 1.3984889604501850
+(0.3299493868340840 .* (mylog (mydivide (square X5) (mydivide (mydivide X7 X3) X3)))) + 1.3984889604501850
+(0.4898475148509821 .* (mylog (mydivide X5 (mydivide (mydivide (* X4 X6) X3) X3)))) + 2.9200713368690430
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5858918528293221 .* (mylog (mydivide X5 (mydivide (mydivide (* (sqrt (mylog X3)) X6) X3) X3)))) + 1.0837201519948023
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578

@@ -1,1 +1,2 @@
 (0.8515777956670436 .* (sqrt (* (mylog (mylog (sqrt (quart (sin (mydivide (sqrt (* X5 X1)) (square X5))))))) X3))) + 0.9099052809326496
+(0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578

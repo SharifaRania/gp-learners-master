@@ -1,1 +1,2 @@
 (618073610638.9767000000000000 .* (cos (exp (mydivide (cos X7) (exp (cube (sqrt X8))))))) + -333946597021.6961000000000000
+(0.0000243419261427 .* (mydivide (mylog (mydivide X5 X6)) (mydivide (mydivide (* X4 (mydivide X7 X3)) (exp X7)) X5))) + 2.7074810870126043

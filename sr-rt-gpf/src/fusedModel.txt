@@ -98,3 +98,87 @@
 + NaN (1.6087907349927726 .* (* (mylog X3) (mylog (mylog X4)))) + 0.5563634818443823
 + NaN (0.2234497216140482 .* (* (sqrt (mylog (sqrt (quart (sin (mydivide (mydivide X3 (mydivide X6 (* X5 (mylog X3)))) (square (square X7)))))))) (mylog X3))) + 2.5656131130126730
 + NaN (0.1959208391044372 .* (* (sqrt (mylog (sqrt (quart (sin (mydivide (mydivide (mydivide X5 (mydivide X4 X5)) (mydivide X6 (* X5 (mylog (* X5 (mylog (mydivide X6 X5))))))) (square (square X7)))))))) (mylog X1))) + 1.8654475472461325
++ NaN (0.0773915908141745 .* X5) + 1.3903586705299784
++ NaN (0.3521961045390142 .* X3) + 1.4062580017411794
++ NaN (NaN .* (- X5 X5)) + NaN
++ NaN (1.7698932773376310 .* (mylog X3)) + 0.6591198874375781
++ NaN (3.3808271939197640 .* (sqrt (mydivide (* X6 X3) (square X6)))) + 0.3371191348600746
++ NaN (0.5882039652827422 .* (mylog (mydivide X5 (mydivide X7 X3)))) + 2.5059168634254690
++ NaN (0.0000012276072868 .* (mydivide (mylog (mydivide X5 (mydivide X7 X3))) (mydivide (mydivide (* X7 X6) (exp X7)) X5))) + 2.7495239997771790
++ NaN (5.8322808055221484 .* (sqrt (sqrt (mydivide (* X6 X3) (square X6))))) + -2.0955856094021200
++ NaN (0.0000014688869090 .* (mydivide (mylog (mydivide X3 (mydivide X7 X3))) (mydivide (mydivide (square X6) (exp X7)) X3))) + 2.7625395307026084
++ NaN (0.0628402456937473 .* (sqrt (sqrt (mydivide X7 (mydivide (mydivide (square X6) (exp X7)) X7))))) + 2.6121955394571383
++ NaN (0.0000005412214988 .* (mydivide X3 (mydivide (mydivide X3 (exp X7)) (mylog (sqrt (mylog X3)))))) + 2.5299832804445010
++ NaN (0.0000048533406117 .* (mydivide X7 (mydivide (mydivide (mylog X3) (exp X7)) (sqrt X3)))) + 2.6700688332526290
++ NaN (0.0003384420072913 .* (mydivide (mylog X6) (mydivide (mydivide X5 (exp X7)) (sqrt X7)))) + 2.6701610064983450
++ NaN (0.1080863221264222 .* (mylog (mydivide X5 (mydivide X5 (exp X7))))) + 2.3806642518238860
++ NaN (0.0000022963987213 .* (mydivide X5 (mydivide (mydivide X5 (exp X7)) X5))) + 2.6712481464786433
++ NaN (0.0000025132261594 .* (mydivide (mylog (mydivide X3 (mydivide X7 X3))) (mydivide (mydivide (square X6) (exp X7)) X5))) + 2.7843449857626736
++ NaN (0.0000509643458521 .* (mydivide (mylog (mydivide X3 (mydivide X5 X3))) (mydivide (mydivide X3 (exp X7)) X7))) + 2.7033175535255034
++ NaN (0.0000002654504207 .* (mydivide X3 (mydivide (mydivide X5 (exp X7)) (sqrt (cube (* X8 (sqrt (mylog (square X4))))))))) + 2.7055684656535126
++ NaN (3.7242768500824530 .* (sqrt (sqrt (mydivide X5 X7)))) + -0.4700038785873244
++ NaN (0.7001294116329957 .* (mylog (mydivide X5 (mydivide X6 X3)))) + 1.5642816327550797
++ NaN (0.6094628123173056 .* (mylog (mydivide X5 (mydivide (mydivide X7 X4) X3)))) + 0.5331580547146526
++ NaN (0.0000001613953996 .* (mydivide X5 (mydivide X5 (exp X7)))) + 2.5118358263126446
++ NaN (0.0001783552956629 .* (mydivide (mylog X6) (mydivide (mydivide X5 (exp X7)) X6))) + 2.6703210255945784
++ NaN (0.1308447398856913 .* (mylog (mydivide X5 (mydivide X3 (exp X7))))) + 2.6709488761565210
++ NaN (0.1318529652906803 .* (mylog (mydivide X5 (mydivide X3 (exp X2))))) + 2.7392162901674010
++ NaN (0.0000007320816533 .* (mydivide X3 (mydivide X5 (exp X7)))) + 2.5278768122323170
++ NaN (0.0000012339181224 .* (mydivide (mylog (mydivide X3 (mydivide X7 (- X3 X5)))) (mydivide (mydivide (square X6) (exp X7)) X5))) + 2.7663845216386442
++ NaN (0.7175105448915124 .* (sqrt (mydivide (mylog (mydivide X5 (exp X7))) (mydivide X7 X3)))) + 2.3615499671333240
++ NaN (0.6789906574945384 .* (mylog (mylog (mydivide X5 (exp X7))))) + 2.3677937041007153
++ NaN (0.0000005157006609 .* (mydivide X6 (mydivide (mydivide X3 (exp X7)) (sqrt (cube (* X8 (sqrt (mylog (square X4))))))))) + 2.7525768038869680
++ NaN (1.2779546217538869 .* (mylog (mylog (mydivide (mylog X2) (mydivide (mydivide (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X3 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide (mydivide (square X3) (exp X7)) (sqrt (cube X5)))) (exp X7)) (sqrt (cube X5))))))) + 2.6843584019017896
++ NaN (0.0000003070027383 .* (mydivide X7 (mydivide X5 (exp X7)))) + 2.5086646886988550
++ NaN (0.0002541199249241 .* (mydivide (mylog X3) (mydivide X3 (exp X7)))) + 2.6759714870012440
++ NaN (0.5554533213886939 .* (sqrt (mydivide (mylog (mydivide X3 (exp X7))) (mydivide X7 X3)))) + 2.6704414563392580
++ NaN (0.0628703398218410 .* (- X5 X2)) + 3.8353245039355235
++ NaN (0.3859361928908940 .* (mylog (mydivide X7 (mydivide (mydivide (mylog (mydivide (square (mydivide X7 X7)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) X6) X3)))) + 2.6841754703409446
++ NaN (0.0000012283367065 .* (mydivide (sqrt X7) (mydivide X5 (exp X7)))) + 2.5085486584676760
++ NaN (0.0000005592301163 .* (mydivide X7 (mydivide (mydivide (mydivide (square X3) (exp X7)) X5) X5))) + 2.7038649655618170
++ NaN (1.0368405033559016 .* (sqrt (mydivide (mylog (mydivide X5 (exp X7))) (mydivide X5 X3)))) + 2.3637055668956950
++ NaN (0.0000132839335879 .* (mydivide X7 (mydivide (mydivide X6 (exp X7)) (sqrt X3)))) + 2.6708338771320657
++ NaN (0.9627700692069352 .* (mylog (mydivide X5 X2))) + 3.7313512922632532
++ NaN (0.6708988606833525 .* (mylog (mylog (mydivide (mylog X2) (mydivide (mydivide (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X3 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide (sqrt (mylog X3)) (sqrt (cube X5)))) (exp X7)) (sqrt (cube X5))))))) + 2.6847161096888080
++ NaN (0.0004640561250763 .* (mydivide (exp X7) (mydivide (mydivide (* (mylog (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide X3 (exp X7)))) X7) (sqrt (mylog X3))) X7))) + 2.6978709061432280
++ NaN (0.0000034858536672 .* (mydivide X3 (mydivide (mydivide X3 (exp X4)) (mylog (sqrt (mylog X3)))))) + 2.6674331072423530
++ NaN (0.0000086521483529 .* (mydivide (mylog (mydivide X5 X6)) (mydivide (mydivide (* X4 X6) (exp X7)) X5))) + 2.7513789575748753
++ NaN (0.6781794503918908 .* (mylog (mydivide X5 (mydivide (mydivide (mylog X5) X3) X3)))) + 0.0126643450289423
++ NaN (0.1187625125202124 .* (mylog (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide (mydivide X5 (exp X7)) (sqrt (cube X3)))))) + 2.6986388126078875
++ NaN (0.0951520596792893 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide (square X3) (exp X7)) X5) X5)))) + 2.6854187586045413
++ NaN (0.0000010824431209 .* (mydivide X3 (mydivide (mydivide X3 (exp X7)) (mylog (sqrt (sqrt (mylog X3))))))) + 2.5299828548394710
++ NaN (0.5146594492787997 .* (mylog (mydivide X7 (mydivide (mydivide (mylog (mydivide (square (mydivide X7 X7)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mylog X3)) X3)))) + 2.6845986101722206
++ NaN (0.6968499537787002 .* (mylog (mylog (mydivide X5 (mydivide X3 (exp X2)))))) + 2.7389304289707220
++ NaN (0.1192751942302215 .* (mylog (mydivide X6 (mydivide X5 (exp X7))))) + 2.3854937897613240
++ NaN (0.5370163325729251 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X6 X3) X4) X3)))) + -0.5253539314985578
++ NaN (0.1304798998906584 .* (mylog (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide (mydivide X5 (exp X7)) X3)))) + 2.6987211535283206
++ NaN (0.0000019410034700 .* (mydivide (sqrt X3) (mydivide X5 (exp X7)))) + 2.5141481881937633
++ NaN (0.0000002404001604 .* (mydivide X7 (mydivide (mydivide X3 (exp X7)) (sqrt (cube (* X8 (sqrt (mylog X6)))))))) + 2.7350713720625150
++ NaN (0.0000668556790692 .* (mydivide X3 (mydivide X3 (exp X7)))) + 2.6702628146506010
++ NaN (1.2482836121165781 .* (mylog (mydivide X7 (mydivide (mydivide (mylog X7) (mylog X3)) X3)))) + -1.4163710240506195
++ NaN (2.1221445224764520 .* (mylog (mylog (mydivide X5 (mydivide X3 (exp X3)))))) + -0.4837277346390727
++ NaN (0.1035160172182460 .* (mylog (mydivide X5 (mydivide X6 (exp X7))))) + 2.6181087578733180
++ NaN (0.0000000002538900 .* (mydivide (exp X7) (mydivide (mydivide (mydivide (square X3) (exp X7)) X5) X5))) + 2.7038655116193290
++ NaN (0.0000008177617019 .* (mydivide (mylog X3) (mydivide (mydivide (mydivide X7 X4) (exp X7)) X5))) + 2.7115482372626794
++ NaN (0.1390876660242498 .* (mylog (mydivide X3 (mydivide (mydivide X6 (exp X7)) (mylog X3))))) + 2.6430634593869860
++ NaN (1.2098888388704452 .* (mylog (mylog (mydivide (mylog (mydivide (square (mydivide (exp X7) X4)) (mydivide X3 (mydivide (mydivide (square X3) (exp X7)) X3)))) (mydivide (mydivide (mydivide (mylog (mydivide (square (mydivide X7 X4)) (mydivide X3 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide (mydivide (square X3) (exp X7)) (sqrt (cube X5)))) (exp X7)) (sqrt (cube X5))))))) + 2.6840420358056685
++ NaN (0.5413015771400905 .* (mylog (mydivide X5 (mydivide (mydivide (mylog X6) X3) X3)))) + 0.4808658177175929
++ NaN (0.9230275755389821 .* (mylog (mydivide X5 (mydivide (mydivide (mydivide X5 X3) X4) X3)))) + -2.4049264840220137
++ NaN (0.0000001878134128 .* (mydivide X3 (mydivide (mydivide (mydivide X7 X4) (exp X7)) X5))) + 2.7126296651040502
++ NaN (0.0000128919662830 .* (mydivide (mylog X3) (mydivide (mydivide X3 (exp X4)) (mylog (sqrt (mylog X3)))))) + 2.6768376926889483
++ NaN (0.6017867303390313 .* (mylog (mydivide X5 (mydivide (mydivide X6 (sqrt X3)) X3)))) + 1.3746150152458300
++ NaN (0.6247078178067859 .* (sqrt (mydivide (mylog (mydivide (square (mydivide X7 X7)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mylog X3)))) + 2.6864983876020356
++ NaN (2.2438069901307340 .* (sqrt (mydivide (mylog (mydivide X5 (exp X7))) X4))) + 2.3725040651847890
++ NaN (2.1800426025574247 .* (mylog (mylog X3))) + 2.6088115060535960
++ NaN (0.8728237713007738 .* (mydivide X5 (mylog (mydivide (mylog (mydivide (square (mydivide X3 X4)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide X3 (exp X7)))))) + 1.8255395343993248
++ NaN (0.5698527738482121 .* (mylog (mydivide X3 (mydivide (mydivide (mylog X6) X3) X3)))) + 1.1140640887028780
++ NaN (0.0000185304323910 .* (mydivide X7 (mydivide (sqrt X3) (exp X7)))) + 2.6757041553581313
++ NaN (0.0968140884779807 .* (mylog (mydivide X5 (mydivide (mydivide X3 (exp X7)) (sqrt (cube (* X8 (sqrt (mylog X6))))))))) + 2.7266403245627310
++ NaN (0.0000014419071849 .* (mydivide X3 (mydivide (mydivide X6 (exp X7)) X5))) + 2.6755833197938697
++ NaN (0.4569826566178642 .* (mylog (mydivide X5 (mydivide (mylog (mydivide (mylog (mydivide (square (mydivide X3 X4)) (mydivide X5 (mydivide (mydivide (square X3) (exp X7)) X5)))) (mydivide X3 (exp X7)))) X3)))) + 2.6983846568619465
++ NaN (0.0000306810505605 .* (mydivide (mylog X3) (mydivide (mydivide X5 (exp X7)) X5))) + 2.6706278363681224
++ NaN (0.9880593136429209 .* (mylog (mydivide (mylog X5) (mydivide X6 X3)))) + 2.7284422597299180
++ NaN (0.8585431829262159 .* (mydivide X5 (mylog (mydivide (mylog (mydivide (square (mydivide X3 X4)) (mydivide X5 (mydivide X3 (exp X7))))) (mydivide X3 (exp X7)))))) + 1.8256144613771195
++ NaN (0.0000067457733875 .* (mydivide (square X3) (mydivide X3 (exp X7)))) + 2.6769523019789290
++ NaN (0.0000243419261427 .* (mydivide (mylog (mydivide X5 X6)) (mydivide (mydivide (* X4 (mydivide X7 X3)) (exp X7)) X5))) + 2.7074810870126043
++ NaN (0.0000057769707816 .* (mydivide (mylog (mylog X3)) (mydivide (mydivide (* X7 X6) (exp X7)) X5))) + 2.7509389858955604

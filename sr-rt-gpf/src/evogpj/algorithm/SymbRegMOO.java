@@ -582,6 +582,7 @@ public class SymbRegMOO {
         // get the best individual
         best = pop.get(0);
         System.out.println(best.getFitnesses());
+        System.out.println("Number of fitness values: " + best.getFitnesses().size()); ///for testing two objectives
         // record the best individual in models.txt
         bestPop.add(best);
         long timeStamp = (System.currentTimeMillis() - startTime) / 1000;
