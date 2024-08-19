@@ -4,3 +4,4 @@
 (0.8834898486584001 .* (mylog (* (* (sqrt (* X4 (mylog (* (square (* (mylog (* (mylog (* X3 X5)) (cos X5))) (cos X6))) (mylog (* X3 X5)))))) X3) (mylog (* (mylog (* X3 X5)) (cos X5)))))) + 0.2324965208626040
 (0.0557807294018358 .* (+ X5 (* X3 (* (sqrt X7) (sqrt (sin X1)))))) + 0.8531156197907104
 (1.2140944524382080 .* (+ (mylog (+ (+ X5 (+ (mylog (mylog (sqrt X4))) (+ (+ X5 X4) (sqrt X4)))) (sqrt (+ X5 (+ X1 (+ (+ X5 X3) X3)))))) (mylog X3))) + -3.8389203286991944
+(0.0992996723592550 .* (mylog (mydivide (quart (mydivide (quart X3) X6)) (sin (mylog (square X3)))))) + 1.5861912826044022
