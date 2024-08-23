@@ -1,0 +1,3 @@
+(NaN .* (- X2 X2)) + NaN
+(NaN .* (- X4 X4)) + NaN
+(NaN .* (- X4 X4)) + NaN
